@@ -1,0 +1,25 @@
+$input-padding-y: 18px;
+$input-padding-x: 32px;
+$form-select-padding-x: 24px;
+$form-select-font-size: 14px;
+$h3-font-size: 18px;
+$h6-font-size: 14px;
+.site-header {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.dark-mode::before {
+  background-image: url("../images/lightmode.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 30px;
+  content: "";
+}
+.countries-list {
+  row-gap: 72px
+}
+.dark {
+  background-color: #202C36;
+  color: white;
+}
+
+@import "./bootstrap.scss";
